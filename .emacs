@@ -9,6 +9,7 @@
   '(progn
      (color-theme-colorful-obsolescence)))
 
+(setq-default indent-tabs-mode nil)
 
 ; Must have org-mode loaded before we can configure org-babel
 (require 'org-install)
